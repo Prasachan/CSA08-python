@@ -1,0 +1,8 @@
+def calculate(self, s):
+        def update(op, v):
+            if op == "+": stack.append(v)
+            if op == "-": stack.append(-v)
+            if op == "*": stack.append(stack.pop() * v)           
+            if op == "/": stack.append(int(stack.pop() / v))      
+    
+        it, num, stack, sign = 0, 0, [], "+"
